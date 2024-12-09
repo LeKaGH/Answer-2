@@ -1,0 +1,41 @@
+html {
+    height: 100%;
+    background-image: linear-gradient(140deg, #EADEDB 0%, #009dff 50%, #9841d6 75%);
+}
+
+.main {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#ansBtn {
+    background: none;
+    color: white;
+    border-color: white;
+    border-radius: 50px;
+    border-style: solid;
+    width: 300px;
+    height: 100px;
+    font-size: 18px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: none;
+    animation: slide-up 1s;
+}
+
+#ansBtn:hover {
+    transition: 1s;
+    background-color: rgba(255, 255, 255, 0.358);
+    cursor: pointer;
+}
+
+@keyframes slide-up {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
